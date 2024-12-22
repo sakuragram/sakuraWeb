@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>sakuragram</title>
+</head>
+<body>
+    <div class="first">
+        <p class="header-1">sakuragram</p>
+        <p class="header-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, aspernatur? Quas impedit repellendus in minima modi, <a href="http://localhost:8080">link</a> consequuntur rem, nobis laborum reprehenderit recusandae, et soluta. Facilis soluta ad deleniti voluptate ipsam.
+        </p>
+    </div>
+    <div class="vertical-block">
+        <div class="horizontal-block">
+            <div class="desktop-release-block">
+                <div class="horizontal-block">
+                    <div class="pill-2"><img src="src/img/sakura_logo.svg" alt="logo"></div>
+                    <div class="pill"><p class="par-1">#desktop</p></div>
+                    <div class="pill"><p class="par-1">1.4.0</p></div>
+                    <div class="pill-release"><p class="par-1">release</p></div>
+                    <button class="download-btn"><p class="par-1">download</p></button>
+                </div>
+                <p class="header-3">big chat update, a lot new features and etc.</p>
+            </div>
+            <div class="desktop-beta-block">
+                <div class="horizontal-block">
+                    <div class="pill-2"><img src="src/img/sakura_logo.svg" alt="logo"></div>
+                    <div class="pill"><p class="par-1">#desktop</p></div>
+                    <div class="pill"><p class="par-1">1.4.0</p></div>
+                    <div class="pill"><p class="par-1">beta</p></div>
+                    <button class="download-btn"><p class="par-1">download</p></button>
+                </div>
+                <p class="header-3">big chat update, a lot new features and etc.</p>
+            </div>
+        </div>
+        <div class="horizontal-block">
+            <div class="desktop-release-block" id="mobile-release">
+                <div class="horizontal-block">
+                    <div class="pill-2"><img src="src/img/sakura_logo.svg" alt="logo"></div>
+                    <div class="pill"><p class="par-1">#mobile</p></div>
+                    <div class="pill"><p class="par-1">1.0.0</p></div>
+                    <div class="pill-release"><p class="par-1">release</p></div>
+                    <button class="download-btn"><p class="par-1">download</p></button>
+                </div>
+                <p class="header-3" id="mobile-release-pn">big chat update, a lot new features and etc.</p>
+            </div>
+            <div class="desktop-beta-block" id="mobile-beta">
+                <div class="horizontal-block">
+                    <div class="pill-2"><img src="src/img/sakura_logo.svg" alt="logo"></div>
+                    <div class="pill"><p class="par-1">#mobile</p></div>
+                    <div class="pill"><p class="par-1">0.1.0</p></div>
+                    <div class="pill"><p class="par-1">beta</p></div>
+                    <button class="download-btn"><p class="par-1">download</p></button>
+                </div>
+                <p class="header-3" id="mobile-beta-pn">big chat update, a lot new features and etc.</p>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/app.js"></script>
+    <script>setMobileReleaseDisabled()</script>
+</body>
+</html>
